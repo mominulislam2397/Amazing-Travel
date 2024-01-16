@@ -77,7 +77,34 @@
   .our-people img{
     width: 100%;
   }
-}
+
+  /* choiche derection  */
+  .choose-head{
+    font-size: 5rem;
+  }
+  .choose-descri{
+    font-size: 3rem;
+    color: #f0986c;
+  }
+  .line-1, 
+  .line-2,
+  .line-3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 30px;
+    gap: 30px;
+  }
+  .line-1 img{
+    width: 100%;
+  }
+  .line-2 img{
+    width: 100%;
+  }
+
+  .line-3 img{
+    width: 100%;
+  }
+  }
 
 
 
@@ -122,4 +149,27 @@
 .our-people img{
   width: 90%;
 }
+ /* choose derection  */
+ .choose-descri{
+  font-size: 2rem;
+  color: rgb(145, 141, 142);
+ }
+
+  .line-1, 
+  .line-2,
+  .line-3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .line-1 img{
+    width: 100%;
+  }
+  .line-2 img{
+    width: 100%;
+  }
+
+  .line-3 img{
+    width: 100%;
+  }
 }
