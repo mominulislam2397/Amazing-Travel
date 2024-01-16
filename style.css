@@ -52,3 +52,28 @@
   border-bottom: 2px solid #000;
   transition: 0.4s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px) {
+  .navebar,
+  .menu li a{
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    padd
+  }
+}
