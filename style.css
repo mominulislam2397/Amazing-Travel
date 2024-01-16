@@ -1,0 +1,54 @@
+/* fonts style  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@400;600;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+/* shared style  */
+*{
+  
+  font-family: 'Mulish', sans-serif;
+}
+
+.tra-color{
+  color: #FF5400;
+}
+
+
+/* navbar  */
+.navebar{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0,0,0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.nav-title{
+  margin-left: 130px;
+  display: flex;
+}
+
+.image-logo{
+  margin-top: 20px;
+}
+.logo-title{
+  padding-left: 10px;
+  
+}
+.menu ul{
+  display: flex;
+}
+.menu li{
+  list-style: none;
+  font-size: 1rem;
+  margin-right: 120px;
+  font-weight: 500;
+}
+.menu li a{
+  text-decoration: none;
+}
+.menu ul li a:hover{
+  border-bottom: 2px solid #000;
+  transition: 0.4s;
+}
