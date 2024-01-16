@@ -4,7 +4,6 @@
   .navebar{
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 0 auto;
     box-shadow: none;
     text-align: center;
   }
@@ -26,6 +25,27 @@
   }
   .menu li a{
     color: black;
+  }
+
+/* Explore or banner */
+.where-go{
+  font-size: 30px;
+}
+.explore-title{
+  font-weight: 500;
+  
+}
+.banner-description{
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+}
+  .image-container{
+    width: 900px;
+    height: 500px;
+  }
+  .input-container{
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr)
   }
 }
 
