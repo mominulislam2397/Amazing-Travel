@@ -27,6 +27,7 @@
 .nav-title{
   margin-left: 130px;
   display: flex;
+  width: 100px;
 }
 
 .image-logo{
@@ -391,14 +392,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* fooooter  */
 
 .fotter-content{
@@ -452,29 +445,4 @@
   text-align: center;
   color: #131318;
   font-weight: 300;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 660px) {
-  .navebar,
-  .menu li a{
-    flex-direction: column;
-    grid-template-columns: repeat(2, 1fr);
-    padd
-  }
 }

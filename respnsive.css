@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+
+  /* navbar or home menu  */
+  .navebar{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 0 auto;
+    box-shadow: none;
+    text-align: center;
+  }
+  .menu ul{
+    flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 10xp 
+  }
+  .nav-title{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 40px;
+  }
+  .menu li{
+    font-size: 60px;
+    padding-top: 120px;
+    text-align: center;
+    padding-left: 300px;
+  }
+  .menu li a{
+    color: black;
+  }
+}
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:992px) {
+  navbar and home menu
+  
+  .navebar{
+    box-shadow: none;
+  }
+  
+  .menu ul{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    font-style: bold;
+  }
+  .nav-title{
+    margin-left: 5px;
+  }
+  .menu li{
+    padding-left: 80px;
+    padding-right: 5px;
+    font-size: 30px;
+  }
+  
+}
