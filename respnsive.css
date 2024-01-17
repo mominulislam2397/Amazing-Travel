@@ -1,8 +1,6 @@
 @media screen and (max-width: 600px) {
   body{
     width: 100%;
-    margin-left: 220px;
-    margin-right: 200px;
   }
 
   /* navbar or home menu  */
@@ -152,8 +150,6 @@
 @media screen and (min-width:600px) and (max-width:992px) {
   body{
     width: 100%;
-    margin-left: 250px;
-    margin-right: 200px;
   }
   /* navbar and home menu  */
   .navebar{
