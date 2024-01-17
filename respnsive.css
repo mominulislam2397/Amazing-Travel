@@ -56,11 +56,16 @@
     justify-content: normal;
     align-content: normal;
   }
-  .people{
+  .people,
+  .who-title,
+  .choose-descri{
     font-size: 5rem;
   }
-  .our-title{
-    font-size: 3rem;
+  .our-title,
+  .who-description,
+  .choose-descri{
+    font-size: 4rem;
+    color: #f0986c;
   }
   .ul-title{
     font-size: 3rem;
@@ -82,10 +87,6 @@
   .choose-head{
     font-size: 5rem;
   }
-  .choose-descri{
-    font-size: 3rem;
-    color: #f0986c;
-  }
   .line-1, 
   .line-2,
   .line-3{
@@ -103,6 +104,19 @@
 
   .line-3 img{
     width: 100%;
+  }
+
+  /* card */
+  .card-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 50px;
+  }
+  .cardflex-3{
+    width: 90%;
+    margin-top: 250px;
+    margin-left: 50px;
   }
   }
 
@@ -150,8 +164,9 @@
   width: 90%;
 }
  /* choose derection  */
- .choose-descri{
-  font-size: 2rem;
+ .choose-descri,
+ .who-description{
+  font-size: 3rem;
   color: rgb(145, 141, 142);
  }
 
@@ -171,5 +186,18 @@
 
   .line-3 img{
     width: 100%;
+  }
+  /* card */
+  .card-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .cardflex-3{
+    width: 80%;
+    margin-top: 250px;
+    margin-left: 3px;
+  }
+  .card-1,.card-2{
+    width: 80%;
   }
 }
